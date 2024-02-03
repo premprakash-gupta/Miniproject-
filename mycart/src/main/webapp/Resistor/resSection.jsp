@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section</title>
+    <link rel="stylesheet" href="resSection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        
+        <div class="poster">
+            
+            <div class="box">
+                <div class="sidebar1">
+                    <div class="s1"></div>
+                </div>
+                
+                <div class="sidebar2">
+                    <div class="s2"></div>
+                </div>
+                
+                <div class="middle_cont"></div>
+                
+                 <div class="sidebar3">
+                    <div class="s3"></div>
+                </div>
+                <div class="sidebar4">
+                    <div class="s4"></div>
+                </div> 
+            </div>
+
+            <div class="poster_name">
+                <span>ELECTROSHARE</span>
+            </div>
+        </div>
+    </header>
+    
+    
+    <nav>
+        <div class="navigation">
+                <div class="menu">
+                    <input type="checkbox" name="checkbox" id="Show_sidebar">
+               
+                    <label id="nav_lable" for="Show_sidebar">
+                        <i id="menu_icon" class="fa fa-bars"></i>
+                        <span id="menu_icon_lable">All</span>
+                    </label>
+
+    
+                    <div class="sidebar_section">
+                        <div id="Menu_Sidebar">
+                            <h1 id="Menu_Sidebar_header">Electroshare</h1>
+                           <h2>Connect Locally, Buy Globally</h2>
+                           <ul>
+                               <a href="../index.jsp">
+                               <li id="Home_list_item">
+                                    <img src="../all web image stock/sidebarhome.png" alt=""> 
+                                    <span>Home</span>
+                                </li>
+                               </a>
+                    
+                               <a href="">
+                               <li id="Profile_list_item">
+                                <img src="../all web image stock/sidebarprofile.png" alt="">
+                                <span>Profile</span>
+                                </li>
+                               </a>
+                    
+                               <a href="">
+                               <li id="Seller_list_item">
+                                <img src="../all web image stock/sidebarmerc.png" alt="">
+                                <span>Seller </span>
+                               </li>
+                               </a>
+                               
+                               <a href="">
+                               <li id="Cart_list_item">
+                                <img src="../all web image stock/sidebarcart.png" alt="">
+                                <span>Cart</span>
+                              </li>
+                               </a>
+                               
+                               <a href="">
+                               <li id="Orders_list_item">
+                                   <img src="../all web image stock/sidebarorder.png" alt=""> 
+                                   <span>Orders</span>
+                                </li>
+                              </a>
+                              
+                            </ul>
+                        </div> 
+                        
+                        <div class="hide_sidebar">
+                            <label for="Show_sidebar"> &times;</label>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            
+            <a id="hearderform_link" href="">
+              <div class="userloction">
+                <i id="location_symbol" class="fa fa-map-marker"></i>
+                <div class="hearderformText">
+                      <span id="Text1">Location is Mumbai</span>
+                      <span id="Text2">Update Your Location</span>
+                </div>
+              </div>
+            </a>
+          
+            <div class="SearchBar">
+                <input type="text" id="Search" placeholder="Search Your Product....">
+                <a href="##" id="summit_text">
+                    <i class="fa fa-search" id="search_icon"></i>
+                </a>
+            </div>
+      
+            <a href="../form/login.html" id="headProfile_link" style="text-decoration: none;">
+                  <div class="Account">
+                        <i id="user_logo" class="fa fa-user"></i>
+                        <span id="AccountText" >Account</span>
+                  </div>
+            </a>
+            
+            
+            <a id="header_cart_link" href="">
+                <div class="header_cart">
+                    <i id="cart_logo" class='fa fa-shopping-cart'></i>
+                    <span id="header_cart_items"> 0 Item</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+
+    <main>
+        <section>
+            <div class="resistor_section">
+                <div class="resistor_section_container1">
+                    
+                    <div class="resistor_section_Product1">
+                        <a href="">
+                            <div class="film_product_img1">
+                            <div class="img_wrap1">
+                                <img src="../all web image stock/thinfilmres.webp" alt="" id="img1_pic">
+                                <div class="film_product1_grayscale"></div>
+                            </div>
+                                <div class="text1_heading">
+                                    <span>Thin film Resistor</span>
+                                </div>
+                            </div>
+                        </a>
+                            <div class="Text1">
+                                <div class="about_product1">
+                                    <button><span>Know Then Buy</span></button>
+                                </div>
+                                <div class="price_range1">
+                                    <span>&#x20B9;20 - &#x20B9;500</span>
+                                </div>
+                            </div>
+                     </div>
+
+
+                    <div class="resistor_section_Product2">
+                        <a href="">
+                            <div class="film_product_img2">
+                                <div class="img_wrap2">
+                                    <img src="../all web image stock/thickfilmres.jpg" alt="" id="img2_pic">
+                                    <div class="film_product2_grayscale"></div>
+                                </div>
+                                
+                                <div class="text2_heading">
+                                    <span>Thick film Resistor</span>
+                                </div>
+                            </div>
+                        </a>
+                            <div class="Text2">
+                                <div class="about_product2">
+                                    <button><span>Know Then Buy</span></button>
+                                </div>
+                                <div class="price_range2">
+                                    <span>&#x20B9;20 - &#x20B9;500</span>
+                                </div>
+                            </div>
+
+                    </div>
+                    
+                    <div class="resistor_section_Product3">
+                        <a href="">
+                            <div class="film_product_img3">
+                                <div class="img_wrap3">
+                                    <img src="../all web image stock/carbonfilmres.jpg" alt="" id="img3_pic">
+                                    <div class="film_product3_grayscale"></div>
+                                </div>
+        
+                                <div class="text3_heading">
+                                    <span>Carbon film Resistor</span>
+                                </div>
+                            </div>
+                        </a>
+                            <div class="Text3">
+                                <div class="about_product3">
+                                    <button><span>Know Then Buy</span></button>
+                                </div>
+                                <div class="price_range3">
+                                    <span>&#x20B9;20 - &#x20B9;500</span>
+                                </div>
+                            </div>
+                            
+                            
+                    </div>
+                    
+                    
+                    <div class="resistor_section_Product4">
+                            <a href="">
+                            <div class="film_product_img4">
+                               <div class="img_wrap4">
+                                   <img src="../all web image stock/metalfilmres.jpg" alt="" id="img4_pic">
+                                   <div class="film_product4_grayscale"></div>
+                                </div>
+                                <div class="text4_heading">
+                                    <span>Metal film Resistor</span>
+                                </div>
+                            </div>
+                           </a>
+                            <div class="Text4">
+                               <div class="about_product4">
+                                <button><span>Know Then Buy</span></button>
+                               </div>
+                               <div class="price_range4">
+                                   <span>&#x20B9;20 - &#x20B9;500</span>
+                               </div>
+                            </div>
+                            
+                    </div>
+                    
+            </div>    
+            </section>
+    </main>
+
+
+
+    
+    <footer>
+        <div class="footer">
+            <div class="footerUpersection">
+                <div class="AboutUs">
+                    <h2>About Us</h2>
+                    <a href="">About</a>
+                </div>
+                <div class="Contact">
+                    <h2>Contact Us</h2>
+                    <a href="mailto: Guruprasadchaubey8426@gmail.com">Gmail</a>
+                </div>
+            </div>
+            <div class="copyrightSection">
+                <span> &copy; copyright All Right Reserved. 2023 </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+</html>
